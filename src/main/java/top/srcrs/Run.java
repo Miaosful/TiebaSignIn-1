@@ -81,7 +81,7 @@ public class Run {
         if (args.length == 0) {
             LOGGER.warn("请在Secrets中填写BDUSS");
         }
-        cookie.setBDUSS("5HY1IzWExmSmFLVVNmflJVcUVyWFBUekNIZW5BUVJua0hZNUlCMjVIRDQ0R0JvSVFBQUFBJCQAAAAAAAAAAAEAAACmLa0OU29sZWRhZF-yu7GvycsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPhTOWj4UzloN3");
+        cookie.setBDUSS(args[0]);
         Run run = new Run();
         run.getTbs();
         run.getFollow();
